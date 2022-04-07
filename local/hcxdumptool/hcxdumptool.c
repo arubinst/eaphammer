@@ -14,6 +14,7 @@
 #include <time.h>
 #include <signal.h>
 #include <unistd.h>
+#include <linux/sockios.h>
 #ifdef __ANDROID__
 #include <libgen.h>
 #define strdupa strdup
